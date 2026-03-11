@@ -2,13 +2,14 @@
   "name": "emploaye-menigmint-system",
   "private": true,
   "version": "0.0.0",
-    "homepage": "https://talha2343.github.io/employees-management-system",
+  "homepage": "https://talha2343.github.io/employees-management-system",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
